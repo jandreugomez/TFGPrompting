@@ -3,7 +3,7 @@ import sys
 import os
 import collections
 import torch
-from torch.utils.data import TensorDataset
+from torch.utils.data import TensorDataset, IterableDataset
 from transformers import BasicTokenizer
 
 class MultiChoiceExample(object):

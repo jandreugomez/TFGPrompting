@@ -51,4 +51,5 @@ python train.py \
   --learning_rate 2e-5 \
   --num_train_epochs 3.0 \
   --save_steps 1000 \
-  --overwrite_cache #req for multiple choice
+  --prompt
+#  --overwrite_cache #req for multiple choice
